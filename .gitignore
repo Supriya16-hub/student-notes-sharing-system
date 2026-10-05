@@ -1,0 +1,19 @@
+# MySQL database internal files
+study_notes_db/*.frm
+study_notes_db/*.ibd
+study_notes_db/db.opt
+
+# Uploaded study materials
+notes-backend/uploads/*
+notes-backend/notes/uploads/*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
